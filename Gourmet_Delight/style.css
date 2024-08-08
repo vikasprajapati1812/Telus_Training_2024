@@ -292,7 +292,9 @@ a {
 }
 
 /* //////////// */
-
+.links{
+  color: white;
+}
 .social a:nth-child(even){
   color: red;
 }
