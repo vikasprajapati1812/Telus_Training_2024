@@ -188,6 +188,7 @@ nav li a {
   background-color: rgba(49, 47, 47, 0.603);
   border-radius: 0.6rem;
   overflow: hidden;
+  transition: scale 1s ease;
 }
 .card h2 {
   color: orange;
