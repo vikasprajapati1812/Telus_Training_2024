@@ -106,6 +106,23 @@ const totalAmountForEachCategory = expenses.reduce((acc, curr) => {
 }, {});
 console.log(totalAmountForEachCategory);
 
+// or
+/*
+function totalAmountEachCategory(expenses) {
+  const totalAmountForEachCategory = expenses.reduce((acc, curr) => {
+    if (acc[curr.category]) {
+      acc[curr.category] += curr.amount;
+    } else {
+      acc[curr.category] = curr.amount;
+    }
+    return acc;
+  }, {});
+}
+totalAmountEachCategory(expenses)
+
+  */
+
+
 // Array Flattening:
 // const nestedArray = [1, p, p, [4, 511, 61, 7, [8, 91];
 // Create a nested array nestedArray with multiple levels of arrays within arrays.
